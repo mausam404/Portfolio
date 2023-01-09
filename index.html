@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0
+    ,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--hero Section Start-->
+
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li class="navbar"><a href="#">Home</a></li>
+          <li class="navbar"><a href="#about">About Us</a></li>
+          <li class="navbar"><a href="#service">Services</a></li>
+          <li class="navbar"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <a href="#" class="btn">Subscribe</a>
+      </nav>
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>Mausam <span>Kumar</span></h1>
+        <h3>I'm a Web Developer.</h3>
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input class="btn" type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--About Section Start-->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="assets/mausam.jpeg" height="450px" width="300px" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer<span> & Design</span></h5>
+          <p>
+            I am a front-end web developer. I can provide clean code and pixel
+            perfect design. I also make the website more & more interactive with
+            web animations.A responsive design makes your website accessible to
+            all users, regardless of their device.
+          </p>
+          <button type="button">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+    <!--service section starts-->
+    <div class="service" id="service">
+      <div class="tittle">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              QA & testing
+            </p>
+            <p>Web Support and Maintenance</p>
+            <p>Ecommerce Applications</p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5>UI/UX Design</h5>
+          <div class="pra">
+            <p>Homepage introducing yourself.</p>
+            <p>Simple navigation.</p>
+            <p>User friendly</p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>Content Creation</h5>
+          <div class="pra">
+            <p>Tell stories.</p>
+            <p>Add interaction.</p>
+            <p>Do better.</p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Contact Section-->
+    <div class="contact-me" id="contact">
+      <p>Let Me Get You A Beautiful Website</p>
+    </div>
+    <div class="contact">
+      <!-- Create the form -->
+      <form action="/submit-form" method="post" class="form">
+        <!-- Add the input fields -->
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" class="input1" required/><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" class="input2" required/><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5"></textarea><br />
+        <!-- Add the submit button -->
+        <button type="submit" class="buton">Submit</button>
+      </form>
+    </div>
+
+    <!--Footer Start-->
+    <footer>
+      <p>Mausam Kamar</p>
+      <p>For More HTML, CSS project contact me</p>
+      <div class="social">
+        <a class="social_icon" href="https://www.linkedin.com/in/mausam-kumar-b3485b1a7/"><i class="fab fa-linkedin"></i></a>
+        <a class="social_icon" href="https://github.com/mausam404"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="end">Copy Right By Mausam Kumar</p>
+    </footer>
+  </body>
+</html>
